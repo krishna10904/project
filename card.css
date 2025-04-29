@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.card {
+  background: #121212;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+  width: 320px;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+#profile img {
+  width: 100px;
+  border-radius: 50%;
+  margin: 1rem 0;
+  border: 2px solid #0070f3;
+}
+
+#profile h2 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+#profile p {
+  font-size: 0.95rem;
+  color: #bbb;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #1e1e1e;
+  color: white;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0051a2;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
